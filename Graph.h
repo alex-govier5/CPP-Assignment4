@@ -7,6 +7,7 @@ using namespace std;
 class Node {
 	friend class Graph;
 	friend class Forest;
+	friend class Tree;
 
 	int data;
 	Node* next;
